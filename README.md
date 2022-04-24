@@ -1,8 +1,10 @@
 # Work-Day-Scheduler
+To assist in the orginizing of ones life for a better and more time managing process.
 
+## Motivation 
+I made this to keep track of all the things I'm doing for school.
 
-
-
+##
 
 
 
