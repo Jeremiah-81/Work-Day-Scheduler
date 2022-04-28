@@ -1,15 +1,14 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1;
- 
- 
-  /* [added background color ] */ 
+
+  /* [added background color ] */
   background-color: rgb(255, 255, 255);
   width: 100vw;
   height: 100vw;
   width: 100%;
-  }
+}
 
 textarea {
   background: transparent;
@@ -20,13 +19,11 @@ textarea {
   padding: 10px;
 }
 
-
-/* added [flex-column ]  */ 
-  .flex-column {
+/* added [flex-column ]  */
+.flex-column {
   display: flex;
   flex-direction: column;
-}  
-
+}
 
 .jumbotron {
   text-align: center;
@@ -45,19 +42,13 @@ textarea {
   border-radius: 15px;
 }
 
-
 .row {
   white-space: pre-wrap;
   height: 80px;
   border-top: 1px solid white;
-  text-align: center; 
-  margin-left: center; 
- 
+  text-align: center;
+  margin-left: center;
 }
-
-
-
-
 
 .hour {
   background-color: #ffffff;
