@@ -4,6 +4,13 @@ var current = $("#currentDay");
 var time = "15:00:00";
 moment("15", "hh").format("LT");
 $(document).ready(function () {
+  console.log(localStorage.getItem("h15"))
+
+  for (let i = 9; i<= 17; i++) {
+    $(`#h${i}`).siblings(`.memo`).val(localStorage.getItem(`h${i}`));
+    console.log($(`#h${i}`))
+  }
+
   current.text(hour);
 });
 
@@ -15,13 +22,17 @@ $(document).ready(function () {
     var note = $(this).siblings(".memo").val();
     var time = $(this).parent().attr("id");
 
+   console.log(localStorage.getItem("h15"))
+
     localStorage.setItem(time, note);
-    localStorage.get(note);
+    // localStorage.getItem(note);
   });
 
+
   function timeSlot() {
+    
     // This keeps track of the timeline on whats happening in real time.
-    var currentTime = moment().format("hr");
+    var currentTime = moment().format("HH");
     $(".time-slot").each(function () {
       var timeSlot = Number($(this).attr("id").substring(1));
       console.log(timeSlot);
