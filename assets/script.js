@@ -55,15 +55,15 @@ $(document).ready(function () {
     });
   }
 
-  $("#hr9 .memo").val(localStorage.getItem("hr9"));
-  $("#hr10 .memo").val(localStorage.getItem("hr10"));
-  $("#hr11 .memo").val(localStorage.getItem("hr11"));
-  $("#hr12 .memo").val(localStorage.getItem("hr12"));
-  $("#hr13 .memo").val(localStorage.getItem("hr13"));
-  $("#hr14 .memo").val(localStorage.getItem("hr14"));
-  $("#hr15 .memo").val(localStorage.getItem("hr15"));
-  $("#hr16 .memo").val(localStorage.getItem("hr16"));
-  $("#hr17 .memo").val(localStorage.getItem("hr17"));
+  $("#h9 .memo").val(localStorage.getItem("h9"));
+  $("#h10 .memo").val(localStorage.getItem("h10"));
+  $("#h11 .memo").val(localStorage.getItem("h11"));
+  $("#h12 .memo").val(localStorage.getItem("h12"));
+  $("#h13 .memo").val(localStorage.getItem("h13"));
+  $("#h14 .memo").val(localStorage.getItem("h14"));
+  $("#h15 .memo").val(localStorage.getItem("h15"));
+  $("#h16 .memo").val(localStorage.getItem("h16"));
+  $("#h17 .memo").val(localStorage.getItem("h17"));
 
   timeSlot();
 });
